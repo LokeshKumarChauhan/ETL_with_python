@@ -26,13 +26,10 @@ datetime - for logging timestamps
 Project Dataset
 The dataset is obtained from the following source:
 
-bash
-Copy code
+
 wget https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-PY0221EN-SkillsNetwork/labs/module%206/Lab%20-%20Extract%20Transform%20Load/data/source.zip
 After downloading, the files were extracted with:
 
-bash
-Copy code
 unzip source.zip -d ./unzipped_folder
 Solution Steps and Code Walkthrough
 Step 1: Data Extraction
@@ -67,14 +64,11 @@ Python 3.6+
 Required Python libraries (pandas)
 To install the necessary packages:
 
-bash
-Copy code
 pip install pandas
 Running the Solution
 To execute the ETL script, use:
 
-bash
-Copy code
+
 python etl_script.py
 Ensure the dataset files are available in the designated folder, and check log_file.txt for the log details of each ETL phase.
 
